@@ -36,7 +36,6 @@ setup(
     install_requires=[
         'sympy',
         'scipy',   # only for SphericalTensor.find_peaks
-        'torch>=1.8.0',  # >= 1.8 is required for FX
     ],
     include_package_data=True,
     classifiers=[
